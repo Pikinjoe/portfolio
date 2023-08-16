@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.846);
+    display: flex;
+    padding: 10px 100px 10px 180px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+    
+}
+.logo {
+    display: flex;
+    color: rgba(255, 255, 255, 0.561);
+    align-items: center;
+
+}
+.logo h2 {
+    padding: 10px;
+}
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+}
+.link a{
+    color:rgba(255, 255, 255, 0.553);
+    padding-left: 10px;
+    text-decoration: none;
+}
+ .link a:hover {
+    color: rgba(208, 142, 19, 0.857);
+}
+ .link a:visited{
+    color: green;
+}
+.hero {
+    background-color: rgba(252, 239, 220, 0.822);
+    padding: 30px 90px;
+    height: 700px;
+}
+.home {
+    float: left;
+    width: 50%;
+}
+.hero-pic img {
+    width: 100%;
+    height: 600px;
+    padding: 0 50px;
+}
+.path {
+    padding: 50px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.709);
+}
+.path h1 {
+    font-size: 50px;
+    padding: 30px;
+}
+.path p {
+    padding: 0 30px 60px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.path a {
+    padding: 13px 30px;
+    margin-left:30px ;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.path-img {
+    padding: 130px 30px 0;
+    display: flex;
+}
+span {
+    padding-top: 15px;
+}
+span p::before{
+    content: "25,000+";
+    color: rgb(252, 119, 3);
+    margin-left: -15px;
+}
+
+.path img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.two, .three, .four, .five, .six {
+    position: relative;
+    margin-left: -15px;
+}
+.main {
+    clear: both;
+    background-color: rgb(57, 53, 53);
+    height: 950px;
+}
+.main-head h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.main-head span {
+    color: red;
+}
+.main-head p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container {
+    padding: 150px 330px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px 20px;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.526);
+    padding: 70px 20px 30px;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.card h3 {
+    color: rgba(255, 255, 255, 0.762);
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.card p {
+    color: rgba(255, 255, 255, 0.38);
+    padding: 10px 0;
+    line-height: 20px;
+}
+.card a {
+    color: rgba(255, 255, 255, 0.849);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.card i {
+    color: #ea3508;
+
+}
+.testimonial {
+    background-color: rgba(252, 239, 220, 0.822);
+    height: 800px;
+}
+.test-head h1 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+.testimony {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "a b c"
+    "d d d";
+    margin: 50px 330px;
+    gap: 70px 40px;
+    font-family: sans-serif;
+
+}
+.test-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.test-card h3 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+.test-card i {
+    padding-bottom: 13px;
+    padding: 0 1px;
+    color: #e43307d6;
+}
+.ones {
+    grid-area: a;
+    background-color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.twos {
+    grid-area: b;
+    background-color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.threes {
+    grid-area: c;
+    background-color: white;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.contact {
+    grid-area: d;
+    background-color: white;
+    display: flex;
+    padding: 40px 0;
+    font-size: 14px;
+
+}
+.contact-one {
+    flex: 3;
+    padding: 0 50px;
+}
+.contact-one h2{
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+.imp {
+    display: block;
+    margin: 15px 0;
+    width: 400px;
+}
+.only {
+    border:0;
+    border-bottom: 1px solid gray;
+}
+.bat {
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(39, 8, 39), purple);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.contact-two {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(217, 200, 200);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+}
+.contact-two i {
+    padding-right: 8px;
+}
+.logs {
+    text-align: end;
+    padding-top: 20px;
+}
+.logs img {
+    width: 20px;
+}
+.foot {
+    background-color: rgba(0, 0, 0, 0.943);
+    height: 170px;
+    font-size: 13px;
+
+}
+.detail {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    font-family: sans-serif;
+
+
+}
+.detail h3 {
+    color: white;
+}
+.detail p, .detail ul {
+    color: rgba(255, 255, 255, 0.416);
+    list-style-type: none;
+}
+.detail ul {
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.detail li {
+    padding: 3px 0;
+}
+.soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-end {
+    padding-left: 60px;
+}
+a img {
+    width: 50px;
+}
+.social-end a {
+    padding-left: 20px;
+}
+.navlink ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sub div {
+    padding: 20px 0;
+}
+.sub form {
+    padding: 10px 0;
+}
+.sub input {
+    padding: 8px;
+    background-color: rgba(23, 27, 30, 0.794);
+    border: 0;
+}
+.sub i {
+    background-color: red;
+    padding: 8px;
+    border:0;
+    color: white;
+}
+.last {
+    background-color: rgb(38, 34, 34);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.416);
+    padding: 10px;
+}
+.last span {
+    color: red;
+}
